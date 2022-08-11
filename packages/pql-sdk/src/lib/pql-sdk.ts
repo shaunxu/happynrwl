@@ -1,4 +1,4 @@
-import { pql_1 } from "@happynrwl/pql";
+import { pql_1 } from "@shaunxu/pql";
 
 export function pqlSdk(): string {
   const v = pql_1();
