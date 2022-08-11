@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/shaunxu/happynrwl/compare/shaunxu-v1.1.0...shaunxu-v1.2.0) (2022-08-11)
+
+
+### Features
+
+* [#0](https://github.com/shaunxu/happynrwl/issues/0) a02 ([3f12454](https://github.com/shaunxu/happynrwl/commit/3f124547b4f6cafd905b620f0fd1c7a68b966fc3))
+
 ## [1.1.0](https://github.com/shaunxu/happynrwl/compare/shaunxu-v1.0.0...shaunxu-v1.1.0) (2022-08-11)
 
 
