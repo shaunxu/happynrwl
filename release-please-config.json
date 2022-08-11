@@ -1,0 +1,7 @@
+{
+    "packages": {
+        "packages/pql": {},
+        "packages/pql-pls": {},
+        "packages/pql-sdk": {}
+    }
+}

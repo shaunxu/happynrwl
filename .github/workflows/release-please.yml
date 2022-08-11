@@ -10,7 +10,9 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
-          release-type: node
+          command: manifest
+          token: ${{secrets.GITHUB_TOKEN}}
+          default-branch: main
           monorepo-tags: true
       - uses: actions/checkout@v3
         if: ${{ steps.release.outputs.releases_created }}
@@ -24,18 +26,7 @@ jobs:
         if: ${{ steps.release.outputs.releases_created }}
       - run: npx nx run-many --target=build --all
         if: ${{ steps.release.outputs.releases_created }}
-      - run: npm publish
-        working-directory: ./dist/packages/pql
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{ steps.release.outputs.releases_created }}
-      - run: npm publish
-        working-directory: ./dist/packages/pql-pls
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{ steps.release.outputs.releases_created }}
-      - run: npm publish
-        working-directory: ./dist/packages/pql-sdk
+      - run: node ./tools/publish.js '${{toJSON(steps.release.outputs)}}'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: ${{ steps.release.outputs.releases_created }}
