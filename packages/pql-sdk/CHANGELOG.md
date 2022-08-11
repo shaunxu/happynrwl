@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/shaunxu/happynrwl/compare/pql-sdk-v1.2.0...pql-sdk-v1.3.0) (2022-08-11)
+
+
+### Features
+
+* [#0](https://github.com/shaunxu/happynrwl/issues/0) a11 ([fcd6dec](https://github.com/shaunxu/happynrwl/commit/fcd6dec60aacadb321874b788eea86b3f8f45c50))
+
 ## [1.2.0](https://github.com/shaunxu/happynrwl/compare/pql-sdk-v1.1.0...pql-sdk-v1.2.0) (2022-08-11)
 
 
