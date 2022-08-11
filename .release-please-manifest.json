@@ -1,5 +1,5 @@
 {
-    "packages/pql": "1.0.0",
-    "packages/pql-pls": "1.0.0",
-    "packages/pql-sdk": "1.0.0"
+    "packages/pql": "1.1.0",
+    "packages/pql-pls": "1.1.0",
+    "packages/pql-sdk": "1.1.0"
 }
