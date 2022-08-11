@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "happynrwl",
+  "npmScope": "shaunxu",
   "affected": {
     "defaultBase": "main"
   },
