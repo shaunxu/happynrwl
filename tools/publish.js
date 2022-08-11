@@ -12,7 +12,7 @@ for (let key in outputs) {
     
     const workspace = match[1];
     const cwd = `./dist/${match[1]}`;
-    console.log(`publishing ${workspace} at ${cwd} ...`);
+    console.log(`publishing ${workspace} at ${cwd} ......`);
     cp.spawnSync("npm", ["publish"], {
         cwd: cwd,
         stdio: "inherit"
