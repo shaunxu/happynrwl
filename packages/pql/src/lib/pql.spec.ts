@@ -1,7 +1,7 @@
-import { pql } from './pql';
+import { pql_1 } from './pql';
 
 describe('pql', () => {
   it('should work', () => {
-    expect(pql()).toEqual('pql');
+    expect(pql_1()).toEqual('pql');
   });
 });
