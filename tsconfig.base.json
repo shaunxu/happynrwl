@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@happynrwl/pql": ["packages/pql/src/index.ts"],
+      "@happynrwl/pql-pls": ["packages/pql-pls/src/index.ts"],
+      "@happynrwl/pql-sdk": ["packages/pql-sdk/src/index.ts"],
+      "@shaunxu/pql": ["packages/pql/pql/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
