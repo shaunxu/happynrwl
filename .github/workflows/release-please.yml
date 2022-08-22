@@ -30,9 +30,8 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: ${{ steps.release.outputs.releases_created }}
-      - uses: distributhor/workflow-webhook@v2
-        env:
-          webhook_url: 'https://enii9drexlf69.x.pipedream.net'
-          webhook_secret: '1Y0uR5ecr3t1'
-          data: '{ "weapon": "hammer", "drink" : "beer" }'
+      - uses: joelwmale/webhook-action@v2
+        with:
+          url: 'https://enii9drexlf69.x.pipedream.net'
+          body: '${{toJSON(steps.release.outputs)}}'
         if: ${{ steps.release.outputs.releases_created }}
