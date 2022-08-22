@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/shaunxu/happynrwl/compare/pql-v1.7.0...pql-v1.8.0) (2022-08-22)
+
+
+### Features
+
+* [#0](https://github.com/shaunxu/happynrwl/issues/0) pql 10 ([fcfb6b0](https://github.com/shaunxu/happynrwl/commit/fcfb6b0b65aa29c251d5f622cbf9b8d9227a2995))
+
 ## [1.7.0](https://github.com/shaunxu/happynrwl/compare/pql-v1.6.0...pql-v1.7.0) (2022-08-22)
 
 
